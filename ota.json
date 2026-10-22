@@ -1,0 +1,15 @@
+{
+  "version": "1.1.4",
+  "changelog": [
+    "Stable cloud link: reused connections, one cloud task at a time, faster live uploads",
+    "Controller and BMS stay connected together (no reconnect loop)",
+    "PV ON time and energy totals tolerate short data gaps; load source split fixed"
+  ],
+  "builds": {
+    "ESP32-S3": {
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.4-esp32-s3-app-4505a8267c02.bin",
+      "size": 1405680,
+      "sha256": "4505a8267c021fe75be7dbcb7ffde8a4a14df2bbf6ea37af6f4d9e134615eaab"
+    }
+  }
+}
