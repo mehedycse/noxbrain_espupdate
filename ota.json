@@ -1,15 +1,15 @@
 {
-  "version": "1.1.10",
+  "version": "1.1.11",
   "changelog": [
-    "Fix: the gateway no longer briefly drops off while connecting or reconnecting a controller or BMS",
-    "Charging stage shows 'Absorption' (matching the SRNE app)",
-    "Full charge records the battery SOC and remaining Ah; status LED turns yellow when a needed device is off"
+    "Battery USER parameters: accept any values the SRNE controller itself allows (no extra ordering rule)",
+    "Gateway stays online while connecting or reconnecting a controller or BMS",
+    "Charging stage shows 'Absorption'; full charge records battery SOC and Ah"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.10-esp32-s3-app-7783f8bc5207.bin",
-      "size": 1407232,
-      "sha256": "7783f8bc52070c68c82291e4f74fc53c249577a63fe7a0e3bfa0a07099dd42b0"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.11-esp32-s3-app-107c5badf4fd.bin",
+      "size": 1406928,
+      "sha256": "107c5badf4fd88045e4992fe6f41c6648e0d9e68662499d94bb4a662782902b2"
     }
   }
 }
