@@ -1,15 +1,15 @@
 {
-  "version": "1.1.6",
+  "version": "1.1.7",
   "changelog": [
-    "Fix: firmware update no longer stops when the download pauses for a moment",
-    "Fix: gateway could stay offline after a Firebase token renewal (memory for the secure connection)",
-    "PV ON time and energy totals tolerate short data gaps; load source split fixed"
+    "Status LED turns yellow when the controller (or, in Controller + BMS Mode, the BMS) is switched off or not connected",
+    "Firmware update no longer stops when the download pauses for a moment",
+    "Fix: gateway could stay offline after a Firebase token renewal"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.6-esp32-s3-app-984656df61f8.bin",
-      "size": 1406272,
-      "sha256": "984656df61f800931ac7cccbf40c601400b0505236953c24511a00cd6cf1d256"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.7-esp32-s3-app-05bec984b8b9.bin",
+      "size": 1406288,
+      "sha256": "05bec984b8b9b697ecd9f4596bd0e3a6febe5198df70c529318ce93569fec94a"
     }
   }
 }
