@@ -1,15 +1,15 @@
 {
-  "version": "1.1.8",
+  "version": "1.1.10",
   "changelog": [
-    "Full charge: the battery SOC and remaining Ah at that moment are recorded and shown",
-    "Status LED turns yellow when the controller (or, in Controller + BMS Mode, the BMS) is off or not connected",
-    "Firmware update no longer stops when the download pauses; gateway no longer stays offline after a token renewal"
+    "Fix: the gateway no longer briefly drops off while connecting or reconnecting a controller or BMS",
+    "Charging stage shows 'Absorption' (matching the SRNE app)",
+    "Full charge records the battery SOC and remaining Ah; status LED turns yellow when a needed device is off"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.8-esp32-s3-app-f13b29d18e13.bin",
-      "size": 1406624,
-      "sha256": "f13b29d18e13b6b8fcacb5040c01ecb59821efbbdc5e56b719c7ccb2bb7e96ed"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.10-esp32-s3-app-7783f8bc5207.bin",
+      "size": 1407232,
+      "sha256": "7783f8bc52070c68c82291e4f74fc53c249577a63fe7a0e3bfa0a07099dd42b0"
     }
   }
 }
