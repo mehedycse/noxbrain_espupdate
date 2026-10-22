@@ -1,15 +1,15 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "changelog": [
+    "Fix: firmware update no longer stops when the download pauses for a moment",
     "Fix: gateway could stay offline after a Firebase token renewal (memory for the secure connection)",
-    "Stable cloud link, controller and BMS stay connected together",
     "PV ON time and energy totals tolerate short data gaps; load source split fixed"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.5-esp32-s3-app-4da45fb74ecf.bin",
-      "size": 1405728,
-      "sha256": "4da45fb74ecfc28848ca94ddde63f18bbb802365794530cd3e502c42e7c1a6fe"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.6-esp32-s3-app-984656df61f8.bin",
+      "size": 1406272,
+      "sha256": "984656df61f800931ac7cccbf40c601400b0505236953c24511a00cd6cf1d256"
     }
   }
 }
