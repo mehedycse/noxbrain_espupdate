@@ -1,14 +1,15 @@
 {
-  "version": "1.1.12",
+  "version": "1.1.14",
   "changelog": [
-    "Optional RS485 (wired) controller connection next to Bluetooth; Bluetooth and all calculations unchanged.",
-    "Gateway searches the RS485 wire for the controller; live data, parameters, load and charge/discharge switch work over it."
+    "Status LED colours tuned on the board: clear yellow and green.",
+    "Setup mode purple blink, Wi-Fi without cloud blue, devices up but no cloud yellow blink, device missing yellow, all connected green; colour self-test for 19 s after start.",
+    "Includes the optional RS485 controller connection."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.12-esp32-s3-app-64cb76ed3a00.bin",
-      "size": 1408064,
-      "sha256": "64cb76ed3a0097e836eb6f31960b55a614b3fd29a112a9fa20d8196937cca9a9"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.14-esp32-s3-app-42f4269d4a2c.bin",
+      "size": 1408256,
+      "sha256": "42f4269d4a2c152fea5fde2d93ecc94c3b12f5cc76dbbfcf1faccb55cc58f3fa"
     }
   }
 }
