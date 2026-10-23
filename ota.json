@@ -1,15 +1,14 @@
 {
-  "version": "1.1.11",
+  "version": "1.1.12",
   "changelog": [
-    "Battery USER parameters: accept any values the SRNE controller itself allows (no extra ordering rule)",
-    "Gateway stays online while connecting or reconnecting a controller or BMS",
-    "Charging stage shows 'Absorption'; full charge records battery SOC and Ah"
+    "Optional RS485 (wired) controller connection next to Bluetooth; Bluetooth and all calculations unchanged.",
+    "Gateway searches the RS485 wire for the controller; live data, parameters, load and charge/discharge switch work over it."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.11-esp32-s3-app-107c5badf4fd.bin",
-      "size": 1406928,
-      "sha256": "107c5badf4fd88045e4992fe6f41c6648e0d9e68662499d94bb4a662782902b2"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.12-esp32-s3-app-64cb76ed3a00.bin",
+      "size": 1408064,
+      "sha256": "64cb76ed3a0097e836eb6f31960b55a614b3fd29a112a9fa20d8196937cca9a9"
     }
   }
 }
