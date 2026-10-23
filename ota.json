@@ -1,14 +1,15 @@
 {
-  "version": "1.1.17",
+  "version": "1.1.18",
   "changelog": [
-    "Today's Energy: PV Power ON time is kept when the sun rises before the Daily Reset Time.",
-    "Includes the RS485 controller link and the status LED colours from 1.1.16."
+    "Only Controller Mode: PV ON/OFF and Full Charge SOC come from the controller's own SOC; Ah = battery capacity x SOC.",
+    "Full-charge counting from the controller SOC, also without a saved capacity.",
+    "Controller + BMS Mode unchanged."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.17-esp32-s3-app-1279362f8ff8.bin",
-      "size": 1408176,
-      "sha256": "1279362f8ff883baac27d97e3869a3e8578176e6ae62e8b0ff587e724454740d"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.18-esp32-s3-app-c827691cfca6.bin",
+      "size": 1408112,
+      "sha256": "c827691cfca65737d75e1c88c8f8997c5ba824d920ee3d93ef2c2116ff64d645"
     }
   }
 }
