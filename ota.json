@@ -1,15 +1,15 @@
 {
-  "version": "1.1.15",
+  "version": "1.1.16",
   "changelog": [
-    "Status LED: setup mode purple blink, no Wi-Fi red, Wi-Fi without cloud blue, devices up but no cloud yellow blink, device missing yellow, all connected green.",
-    "No colour test at start; the LED shows the real state right away.",
+    "Status LED: deeper green when all connected, true yellow when a device is missing (blink when the cloud is down).",
+    "Setup mode purple blink, no Wi-Fi red, Wi-Fi without cloud blue; no colour test at start.",
     "Includes the optional RS485 controller connection."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.15-esp32-s3-app-0ac8bee201fb.bin",
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.16-esp32-s3-app-03edd933aa31.bin",
       "size": 1408160,
-      "sha256": "0ac8bee201fb0b0d90696c2a736e59655c94461db6e2240ef961daaa17c3b361"
+      "sha256": "03edd933aa31d85efd8ed93d1dd25e8e0e1eaa73cf09952a6a723d6bbf61cd6e"
     }
   }
 }
