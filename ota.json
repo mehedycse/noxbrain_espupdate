@@ -1,14 +1,14 @@
 {
-  "version": "1.1.21",
+  "version": "1.1.22",
   "changelog": [
-    "Setup diagnostics: gateway account, setup config and restore reasons in the log (no behaviour change).",
-    "Use with app 2.4.16 and the latest database rules: a failed re-setup no longer takes the gateway offline."
+    "Re-setup in the same Firebase project keeps the gateway's ID and login: the app no longer sends you back to the Firebase step.",
+    "Use with app 2.4.17."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.21-esp32-s3-app-679c9c849b23.bin",
-      "size": 1408416,
-      "sha256": "679c9c849b23ece2f13f79241052ce3d5cd56a716ae3c83798d792781bb7edc8"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.22-esp32-s3-app-08eb26fa77a7.bin",
+      "size": 1409296,
+      "sha256": "08eb26fa77a7dbc5a9b678dec2ba932e52c6a6a8c8209aa48d2a4370550e9cb6"
     }
   }
 }
