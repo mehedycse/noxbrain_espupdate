@@ -1,13 +1,14 @@
 {
-  "version": "1.1.20",
+  "version": "1.1.21",
   "changelog": [
-    "Version bump to check the white status LED blink during an OTA update (added in 1.1.19)."
+    "Setup diagnostics: gateway account, setup config and restore reasons in the log (no behaviour change).",
+    "Use with app 2.4.16 and the latest database rules: a failed re-setup no longer takes the gateway offline."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.20-esp32-s3-app-bf26e1404f85.bin",
-      "size": 1408208,
-      "sha256": "bf26e1404f850b2d1f9d49895dc8682811c4658b14da3557f9f290e3a28e5a7f"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.21-esp32-s3-app-679c9c849b23.bin",
+      "size": 1408416,
+      "sha256": "679c9c849b23ece2f13f79241052ce3d5cd56a716ae3c83798d792781bb7edc8"
     }
   }
 }
