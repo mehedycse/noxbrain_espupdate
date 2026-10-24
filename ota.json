@@ -1,14 +1,14 @@
 {
-  "version": "1.1.22",
+  "version": "1.1.23",
   "changelog": [
-    "Re-setup in the same Firebase project keeps the gateway's ID and login: the app no longer sends you back to the Firebase step.",
-    "Use with app 2.4.17."
+    "Reads JBD / Xiaoxiang BMS (read-only): voltage, current, SOC, Ah, cycles, temperatures, cell voltages and delta, MOS state. Auto-detect finds JK or JBD by itself.",
+    "Use with app 2.4.19 to choose JBD in Settings > Connectivity."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.22-esp32-s3-app-08eb26fa77a7.bin",
-      "size": 1409296,
-      "sha256": "08eb26fa77a7dbc5a9b678dec2ba932e52c6a6a8c8209aa48d2a4370550e9cb6"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.23-esp32-s3-app-ef8e2694d954.bin",
+      "size": 1412192,
+      "sha256": "ef8e2694d954af4420516163872587dc0c79a58031d396a7c1aa110b8ee525bb"
     }
   }
 }
