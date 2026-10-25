@@ -1,14 +1,14 @@
 {
-  "version": "1.1.23",
+  "version": "1.1.24",
   "changelog": [
-    "Reads JBD / Xiaoxiang BMS (read-only): voltage, current, SOC, Ah, cycles, temperatures, cell voltages and delta, MOS state. Auto-detect finds JK or JBD by itself.",
-    "Use with app 2.4.19 to choose JBD in Settings > Connectivity."
+    "Today's Energy: Load Used and the load source sharing now count from the day's PV ON until the reset, so PV + Battery matches Load Used.",
+    "Use with app 2.4.20."
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.23-esp32-s3-app-ef8e2694d954.bin",
-      "size": 1412192,
-      "sha256": "ef8e2694d954af4420516163872587dc0c79a58031d396a7c1aa110b8ee525bb"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.24-esp32-s3-app-70239984d11b.bin",
+      "size": 1413024,
+      "sha256": "70239984d11b70c11de5a947cfb6fc5f02e5f16e807dd19b4cbc45d37b855d90"
     }
   }
 }
