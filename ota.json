@@ -1,14 +1,13 @@
 {
-  "version": "1.1.24",
+  "version": "1.1.25",
   "changelog": [
-    "Today's Energy: Load Used and the load source sharing now count from the day's PV ON until the reset, so PV + Battery matches Load Used.",
-    "Use with app 2.4.20."
+    "Today's Energy: Full Charge At now shows only a full charge of the current reporting day and is cleared at the daily reset"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.24-esp32-s3-app-70239984d11b.bin",
-      "size": 1413024,
-      "sha256": "70239984d11b70c11de5a947cfb6fc5f02e5f16e807dd19b4cbc45d37b855d90"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.25-esp32-s3-app-8b4362a85464.bin",
+      "size": 1415584,
+      "sha256": "8b4362a8546487e865849e0b838a17af49475179ebf3387d7ce26e95f9176480"
     }
   }
 }
