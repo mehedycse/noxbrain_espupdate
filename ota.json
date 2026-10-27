@@ -1,13 +1,13 @@
 {
-  "version": "1.1.25",
+  "version": "1.1.26",
   "changelog": [
-    "Today's Energy: Full Charge At now shows only a full charge of the current reporting day and is cleared at the daily reset"
+    "Setup and cloud errors now name the real cause: an unset clock (blocked NTP), no Wi-Fi, a bad database URL, a refusal from Firebase, or no reply at all"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.25-esp32-s3-app-8b4362a85464.bin",
-      "size": 1415584,
-      "sha256": "8b4362a8546487e865849e0b838a17af49475179ebf3387d7ce26e95f9176480"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.26-esp32-s3-app-830649e24b74.bin",
+      "size": 1416128,
+      "sha256": "830649e24b7407a3940b0f3079ed78bc33837e97e1219515443ae0c093c368dc"
     }
   }
 }
