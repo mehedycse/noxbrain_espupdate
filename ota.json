@@ -1,13 +1,15 @@
 {
-  "version": "1.1.27",
+  "version": "1.1.29",
   "changelog": [
-    "Bluetooth failures now say what happened: the device refused the link, or it opened but the module does not speak the expected protocol"
+    "Connecting to a controller now tries every known way: Modbus addresses FF, 01 and 60, with writes and subscriptions both with and without a reply",
+    "Failures say what was actually tried instead of blaming range",
+    "New get_logs command: the app can collect the gateway's diagnostic lines without a computer"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.27-esp32-s3-app-76312363be3f.bin",
-      "size": 1417232,
-      "sha256": "76312363be3fb1ad9050dd334f1837735197bc54f4e26d794d1edb32c85252f9"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.29-esp32-s3-app-0d66d1cc2d79.bin",
+      "size": 1420272,
+      "sha256": "0d66d1cc2d79bbf58bbcfc3c02b00c7caf029ee08fda3461b46e121d1928a42c"
     }
   }
 }
