@@ -1,15 +1,15 @@
 {
-  "version": "1.1.29",
+  "version": "1.1.30",
   "changelog": [
-    "Connecting to a controller now tries every known way: Modbus addresses FF, 01 and 60, with writes and subscriptions both with and without a reply",
-    "Failures say what was actually tried instead of blaming range",
-    "New get_logs command: the app can collect the gateway's diagnostic lines without a computer"
+    "Today's Energy counts Panel Input, Battery in, Load Used and the load source sharing for the whole reporting day, from one daily reset to the next",
+    "PV ON and PV OFF stay event times only; they no longer limit any energy total",
+    "The card now shows exactly the day totals the history and Statistics tables have always used"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.29-esp32-s3-app-0d66d1cc2d79.bin",
-      "size": 1420272,
-      "sha256": "0d66d1cc2d79bbf58bbcfc3c02b00c7caf029ee08fda3461b46e121d1928a42c"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.30-esp32-s3-app-c41b8c3449bb.bin",
+      "size": 1419232,
+      "sha256": "c41b8c3449bb4207a3fc984f41df4f8a8a87f2d729b3fb99c7d700cfb3caa998"
     }
   }
 }
