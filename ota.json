@@ -1,13 +1,13 @@
 {
-  "version": "1.1.26",
+  "version": "1.1.27",
   "changelog": [
-    "Setup and cloud errors now name the real cause: an unset clock (blocked NTP), no Wi-Fi, a bad database URL, a refusal from Firebase, or no reply at all"
+    "Bluetooth failures now say what happened: the device refused the link, or it opened but the module does not speak the expected protocol"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.26-esp32-s3-app-830649e24b74.bin",
-      "size": 1416128,
-      "sha256": "830649e24b7407a3940b0f3079ed78bc33837e97e1219515443ae0c093c368dc"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.27-esp32-s3-app-76312363be3f.bin",
+      "size": 1417232,
+      "sha256": "76312363be3fb1ad9050dd334f1837735197bc54f4e26d794d1edb32c85252f9"
     }
   }
 }
