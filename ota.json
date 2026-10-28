@@ -1,15 +1,16 @@
 {
-  "version": "1.1.30",
+  "version": "1.1.31",
   "changelog": [
-    "Today's Energy counts Panel Input, Battery in, Load Used and the load source sharing for the whole reporting day, from one daily reset to the next",
-    "PV ON and PV OFF stay event times only; they no longer limit any energy total",
-    "The card now shows exactly the day totals the history and Statistics tables have always used"
+    "A controller that answers Modbus from address 01 or 60 is accepted at last: its replies were thrown away, so the gateway reported that nothing had answered",
+    "Any valid reply now settles the address search, and a refused live read is retried with a shorter register block",
+    "Live replies are routed by length, so a longer live frame is no longer lost without a word",
+    "The gateway no longer holds its whole loop between controller frames, so the cloud link and the setup page stay responsive"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.30-esp32-s3-app-c41b8c3449bb.bin",
-      "size": 1419232,
-      "sha256": "c41b8c3449bb4207a3fc984f41df4f8a8a87f2d729b3fb99c7d700cfb3caa998"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.31-esp32-s3-app-6bbb421bee8f.bin",
+      "size": 1419952,
+      "sha256": "6bbb421bee8ff4b86097dc0eda99151e538a749d07e07d8440a8272ef699fbd2"
     }
   }
 }
