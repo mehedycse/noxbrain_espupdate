@@ -1,16 +1,16 @@
 {
-  "version": "1.1.32",
+  "version": "1.1.33",
   "changelog": [
-    "Load on/off, manual mode and restore now wait out the gap between controller frames instead of sending into it",
-    "A command no longer collides with the gateway's own two-minute parameter refresh, and a late reply can no longer advance a step it never answered",
-    "A controller or BMS that answers in an unreadable dialect now says so, with the values, instead of looking exactly like silence",
-    "A failed device selection gives the previous controller its learned Modbus address back; dropped Bluetooth frames are counted"
+    "The load's panel and battery shares now always add up to the load: both come from the controller in the same sample",
+    "The day's history records the same split, so the Statistics shares reach 100%",
+    "In Only Controller Mode the remaining Ah recorded each day is the gateway's own count, not the controller's coarse SOC register",
+    "The gap between the controller and the BMS meter is published instead of being hidden (Controller + BMS Mode only)"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.32-esp32-s3-app-b4dd8cbe35ce.bin",
-      "size": 1421984,
-      "sha256": "b4dd8cbe35cebdb8de405905331890f2df3b2f9ba718bb9bdc9cded45cf48139"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.33-esp32-s3-app-719beb5624f9.bin",
+      "size": 1422080,
+      "sha256": "719beb5624f9b7523faa5216a33beaecfd12cc57af9143cfe9b706d4a0215105"
     }
   }
 }
