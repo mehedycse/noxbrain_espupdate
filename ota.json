@@ -1,16 +1,16 @@
 {
-  "version": "1.1.31",
+  "version": "1.1.32",
   "changelog": [
-    "A controller that answers Modbus from address 01 or 60 is accepted at last: its replies were thrown away, so the gateway reported that nothing had answered",
-    "Any valid reply now settles the address search, and a refused live read is retried with a shorter register block",
-    "Live replies are routed by length, so a longer live frame is no longer lost without a word",
-    "The gateway no longer holds its whole loop between controller frames, so the cloud link and the setup page stay responsive"
+    "Load on/off, manual mode and restore now wait out the gap between controller frames instead of sending into it",
+    "A command no longer collides with the gateway's own two-minute parameter refresh, and a late reply can no longer advance a step it never answered",
+    "A controller or BMS that answers in an unreadable dialect now says so, with the values, instead of looking exactly like silence",
+    "A failed device selection gives the previous controller its learned Modbus address back; dropped Bluetooth frames are counted"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.31-esp32-s3-app-6bbb421bee8f.bin",
-      "size": 1419952,
-      "sha256": "6bbb421bee8ff4b86097dc0eda99151e538a749d07e07d8440a8272ef699fbd2"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.32-esp32-s3-app-b4dd8cbe35ce.bin",
+      "size": 1421984,
+      "sha256": "b4dd8cbe35cebdb8de405905331890f2df3b2f9ba718bb9bdc9cded45cf48139"
     }
   }
 }
