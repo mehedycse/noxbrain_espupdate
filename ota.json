@@ -1,15 +1,15 @@
 {
-  "version": "1.1.34",
+  "version": "1.1.35",
   "changelog": [
-    "Controllers whose Bluetooth module needs a PIN can now connect: enter the module's PIN when choosing the controller (app 2.4.25), and the gateway pairs with it and remembers the bond",
-    "A wrong PIN or a module that asks for one is now reported plainly instead of 'the device never answered'",
-    "The diagnostic report shows the first bytes a silent controller sends, failed Bluetooth writes, and the last specific reason a controller could not be read"
+    "A controller whose Bluetooth module is locked is recognised within seconds of connecting, and the app (2.4.26) asks for its PIN right then",
+    "A wrong or changed PIN is reported as such, and the app asks again",
+    "Controllers without a PIN are not affected"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.34-esp32-s3-app-b160db7f7969.bin",
-      "size": 1424016,
-      "sha256": "b160db7f7969c5718544bc46985644d9962a1a10f74b63a579d9c6004144bfa9"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.35-esp32-s3-app-ab698fdf99f3.bin",
+      "size": 1425104,
+      "sha256": "ab698fdf99f39e822b66873a804b9d97ca8072c6a0d27ead75973b0225fbd03e"
     }
   }
 }
