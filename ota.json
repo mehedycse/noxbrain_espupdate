@@ -1,15 +1,15 @@
 {
-  "version": "1.1.35",
+  "version": "1.1.36",
   "changelog": [
-    "A controller whose Bluetooth module is locked is recognised within seconds of connecting, and the app (2.4.26) asks for its PIN right then",
-    "A wrong or changed PIN is reported as such, and the app asks again",
-    "Controllers without a PIN are not affected"
+    "Controller + BMS Mode: the load is never shown larger than what the panel and the battery give it (battery only, battery + panel, or panel with a surplus)",
+    "The gateway learns the controller's load-meter error against the BMS at night and corrects the load, the daily load energy and the load split with it",
+    "Only Controller Mode is not affected"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.35-esp32-s3-app-ab698fdf99f3.bin",
-      "size": 1425104,
-      "sha256": "ab698fdf99f39e822b66873a804b9d97ca8072c6a0d27ead75973b0225fbd03e"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.36-esp32-s3-app-96f7ea579f8f.bin",
+      "size": 1427488,
+      "sha256": "96f7ea579f8fdeaadf6cf62b49078a57ca3cc6b470ffd996a0defb088e1e1ab0"
     }
   }
 }
