@@ -1,14 +1,14 @@
 {
-  "version": "1.1.38",
+  "version": "1.1.39",
   "changelog": [
-    "A controller that will not connect now reports why on every heartbeat -- a wrong Bluetooth PIN, a locked module, another app holding it -- so a reconnect that fails on its own no longer looks like a controller that simply stopped answering",
-    "The reason is shown on the home screen by app 2.4.32 and later; everything in 1.1.37 is included"
+    "A controller whose Bluetooth module asks for a PIN can pair again. Since 1.1.36 the gateway cut its own Bluetooth link the moment it began pairing, so the module never got to ask for the PIN and the controller could never be read",
+    "The PIN you type is kept even when the attempt fails, so the gateway retries with it on its own and the app stops asking for it again"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.38-esp32-s3-app-19868f4ec430.bin",
-      "size": 1428144,
-      "sha256": "19868f4ec43015b24235d3847b60d21dcd5374eecb5b74b59817f259c1fbf99b"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.39-esp32-s3-app-8d39ccc0abaf.bin",
+      "size": 1428352,
+      "sha256": "8d39ccc0abaf1c963013a8ec0e5ce76063abecfce7e1d7faf691a1cdeece814b"
     }
   }
 }
