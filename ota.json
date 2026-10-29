@@ -1,14 +1,15 @@
 {
-  "version": "1.1.39",
+  "version": "1.1.40",
   "changelog": [
-    "A controller whose Bluetooth module asks for a PIN can pair again. Since 1.1.36 the gateway cut its own Bluetooth link the moment it began pairing, so the module never got to ask for the PIN and the controller could never be read",
-    "The PIN you type is kept even when the attempt fails, so the gateway retries with it on its own and the app stops asking for it again"
+    "A slow upload no longer costs the gateway its cloud connection. Uploads were cut off after 4 seconds on a slow link, and each cut forced a new secure connection until the gateway ran out of memory for one and stopped reaching Firebase until its power was cut",
+    "A failed secure connection now waits before the next try instead of retrying at once, which was making the memory problem worse",
+    "The status light and the app no longer show a healthy cloud while every upload is failing"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.39-esp32-s3-app-8d39ccc0abaf.bin",
-      "size": 1428352,
-      "sha256": "8d39ccc0abaf1c963013a8ec0e5ce76063abecfce7e1d7faf691a1cdeece814b"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.40-esp32-s3-app-21193affc2a5.bin",
+      "size": 1428560,
+      "sha256": "21193affc2a59a8cfd4c54328c0e4358f9991076fbeaa0c374a57d8bf4b7ed86"
     }
   }
 }
