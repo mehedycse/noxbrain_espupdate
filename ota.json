@@ -1,15 +1,14 @@
 {
-  "version": "1.1.40",
+  "version": "1.1.41",
   "changelog": [
-    "A slow upload no longer costs the gateway its cloud connection. Uploads were cut off after 4 seconds on a slow link, and each cut forced a new secure connection until the gateway ran out of memory for one and stopped reaching Firebase until its power was cut",
-    "A failed secure connection now waits before the next try instead of retrying at once, which was making the memory problem worse",
-    "The status light and the app no longer show a healthy cloud while every upload is failing"
+    "The gateway now records which part of its work held it up, so the pauses that cost Bluetooth readings and briefly make the app say the gateway is offline can be traced to the step responsible",
+    "No behaviour changes in this release: it only measures, and the fix follows once the measurement names the step"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.40-esp32-s3-app-21193affc2a5.bin",
-      "size": 1428560,
-      "sha256": "21193affc2a59a8cfd4c54328c0e4358f9991076fbeaa0c374a57d8bf4b7ed86"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.41-esp32-s3-app-7359085d45f7.bin",
+      "size": 1429008,
+      "sha256": "7359085d45f7414e4e01a69548fe78c3830aa17273968faeaf2f67a68f5da486"
     }
   }
 }
