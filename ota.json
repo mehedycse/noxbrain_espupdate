@@ -1,15 +1,15 @@
 {
   "version": "1.1.36",
   "changelog": [
-    "Controller + BMS Mode: the load is never shown larger than what the panel and the battery give it (battery only, battery + panel, or panel with a surplus)",
-    "The gateway learns the controller's load-meter error against the BMS at night and corrects the load, the daily load energy and the load split with it",
-    "Only Controller Mode is not affected"
+    "Pairing with a controller's Bluetooth PIN can no longer freeze the gateway: it waits at most 12 seconds, then retries later",
+    "If the gateway ever stops responding for two minutes, it restarts itself instead of staying offline until the power is cut",
+    "Pairing no longer keeps a stored key the controller's module has forgotten"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.36-esp32-s3-app-96f7ea579f8f.bin",
-      "size": 1427488,
-      "sha256": "96f7ea579f8fdeaadf6cf62b49078a57ca3cc6b470ffd996a0defb088e1e1ab0"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.36-esp32-s3-app-ce6763096b54.bin",
+      "size": 1425584,
+      "sha256": "ce6763096b547d4c36a77fc2191d1bc03e370d9a94547941553ea1ef5a945644"
     }
   }
 }
