@@ -1,15 +1,14 @@
 {
-  "version": "1.1.37",
+  "version": "1.1.38",
   "changelog": [
-    "Pairing with a controller's Bluetooth PIN can no longer freeze the gateway: it waits at most 12 seconds, keeps no stored key, and the gateway restarts itself if it ever stops responding for two minutes",
-    "Controller + BMS Mode: the load is never shown larger than what the panel and the battery give it; the gateway learns the controller's load-meter error against the BMS at night and corrects with it",
-    "Replaces both earlier 1.1.36 builds"
+    "A controller that will not connect now reports why on every heartbeat -- a wrong Bluetooth PIN, a locked module, another app holding it -- so a reconnect that fails on its own no longer looks like a controller that simply stopped answering",
+    "The reason is shown on the home screen by app 2.4.32 and later; everything in 1.1.37 is included"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.37-esp32-s3-app-c1fd190d248e.bin",
-      "size": 1428000,
-      "sha256": "c1fd190d248edf72bb4e144a6a7f94ccc5d9559a2448e28a92e8818714877f4b"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.38-esp32-s3-app-19868f4ec430.bin",
+      "size": 1428144,
+      "sha256": "19868f4ec43015b24235d3847b60d21dcd5374eecb5b74b59817f259c1fbf99b"
     }
   }
 }
