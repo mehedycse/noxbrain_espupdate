@@ -1,14 +1,15 @@
 {
-  "version": "1.1.41",
+  "version": "1.1.42",
   "changelog": [
-    "The gateway now records which part of its work held it up, so the pauses that cost Bluetooth readings and briefly make the app say the gateway is offline can be traced to the step responsible",
-    "No behaviour changes in this release: it only measures, and the fix follows once the measurement names the step"
+    "Today's Energy no longer records a full charge that never happened. The gateway used to treat the controller settling into float as a full battery, which a lead-acid bank reaches long before it is full; the full charge is now taken from the charge it has actually counted, and only the first one each day is kept",
+    "An update that is slow to arrive is no longer reported as firmware for a different chip. The gateway now waits for the start of the image as patiently as for the rest of it, and says which of the three things actually went wrong",
+    "The calculated battery figures disappear while the gateway cannot calculate them, instead of leaving the last good reading on screen as though it were current"
   ],
   "builds": {
     "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.41-esp32-s3-app-7359085d45f7.bin",
-      "size": 1429008,
-      "sha256": "7359085d45f7414e4e01a69548fe78c3830aa17273968faeaf2f67a68f5da486"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.42-esp32-s3-app-a97461fef121.bin",
+      "size": 1429984,
+      "sha256": "a97461fef121e965c7c86c4700bfa8a8b289b8366a4bc3aa6ecd5a4baf37ea2a"
     }
   }
 }
