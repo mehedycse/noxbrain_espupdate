@@ -1,18 +1,18 @@
 {
-  "version": "1.1.44",
+  "version": "1.1.45",
   "changelog": [
-    "COM port: send 'dumplog [hours]' to print the flash log (also read by the app's get_logs)."
+    "Adds DALY BMS (Bluetooth Modbus) support, read-only."
   ],
   "builds": {
     "ESP32-S3-8MB": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.44-esp32-s3-8mb-app-d7296c6e2adc.bin",
-      "size": 1433760,
-      "sha256": "d7296c6e2adc12010d78d85b3f0a8ba71ed384a8a99fe6555578c875b5e13dbc"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.45-esp32-s3-8mb-app-de526fe54e4c.bin",
+      "size": 1437056,
+      "sha256": "de526fe54e4ca71057c041ec213f6a46494900c449146145ef2e7059d82119f3"
     },
     "ESP32-S3-16MB": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.44-esp32-s3-16mb-app-a97c2ff996c3.bin",
-      "size": 1433760,
-      "sha256": "a97c2ff996c3b2d21149a0da367641a8b4181e1681f771de8e0430cfc65a9ced"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.45-esp32-s3-16mb-app-b388b7367adb.bin",
+      "size": 1437072,
+      "sha256": "b388b7367adbd0cfd31cab1323464ff443549b4b6e58d16b4a3bf9e825f403b3"
     }
   }
 }
