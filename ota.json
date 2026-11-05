@@ -1,15 +1,18 @@
 {
-  "version": "1.1.42",
+  "version": "1.1.44",
   "changelog": [
-    "Today's Energy no longer records a full charge that never happened. The gateway used to treat the controller settling into float as a full battery, which a lead-acid bank reaches long before it is full; the full charge is now taken from the charge it has actually counted, and only the first one each day is kept",
-    "An update that is slow to arrive is no longer reported as firmware for a different chip. The gateway now waits for the start of the image as patiently as for the rest of it, and says which of the three things actually went wrong",
-    "The calculated battery figures disappear while the gateway cannot calculate them, instead of leaving the last good reading on screen as though it were current"
+    "COM port: send 'dumplog [hours]' to print the flash log (also read by the app's get_logs)."
   ],
   "builds": {
-    "ESP32-S3": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.42-esp32-s3-app-a97461fef121.bin",
-      "size": 1429984,
-      "sha256": "a97461fef121e965c7c86c4700bfa8a8b289b8366a4bc3aa6ecd5a4baf37ea2a"
+    "ESP32-S3-8MB": {
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.44-esp32-s3-8mb-app-d7296c6e2adc.bin",
+      "size": 1433760,
+      "sha256": "d7296c6e2adc12010d78d85b3f0a8ba71ed384a8a99fe6555578c875b5e13dbc"
+    },
+    "ESP32-S3-16MB": {
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.44-esp32-s3-16mb-app-a97c2ff996c3.bin",
+      "size": 1433760,
+      "sha256": "a97c2ff996c3b2d21149a0da367641a8b4181e1681f771de8e0430cfc65a9ced"
     }
   }
 }
