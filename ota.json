@@ -1,20 +1,18 @@
 {
-  "version": "1.1.47",
+  "version": "1.1.48",
   "changelog": [
-    "Estimated time remaining counts only the usable charge, down to the controller's low-cut level",
-    "Learns the floor charge level where the battery reaches the Discharge Cut-Off Voltage under load",
-    "Discharge current averaged over about 7 minutes for a steadier estimate"
+    "New 'whoami' command on the USB serial port shows which cloud database and device login the gateway uses (no key or password)"
   ],
   "builds": {
     "ESP32-S3-8MB": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.47-esp32-s3-8mb-app-b490ceca39ba.bin",
-      "size": 1440832,
-      "sha256": "b490ceca39ba939659fc58e8ce3d66954d4b07759a9dd75f7ef006613d16c703"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.48-esp32-s3-8mb-app-2bb55b6f89cb.bin",
+      "size": 1442000,
+      "sha256": "2bb55b6f89cbc201dbe114dde7c6185e62c5ab4377bddd7f587cbda9034a4a9a"
     },
     "ESP32-S3-16MB": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.47-esp32-s3-16mb-app-5ff7b09bc3ca.bin",
-      "size": 1440832,
-      "sha256": "5ff7b09bc3caa322427edf261fcd3f7bb19fe581c93357a518ab5bb66ce0700f"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.48-esp32-s3-16mb-app-bfc2bc51331d.bin",
+      "size": 1442000,
+      "sha256": "bfc2bc51331dca6857d6e263e58b52e001dca291120bea799bbf7fa939d7b616"
     }
   }
 }
