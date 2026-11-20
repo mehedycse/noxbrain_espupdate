@@ -1,19 +1,20 @@
 {
-  "version": "1.1.46",
+  "version": "1.1.47",
   "changelog": [
-    "The status LED writes a line to the log whenever it changes (state, Wi-Fi, controller, BMS, cloud), so a yellow light can be explained from the log.",
-    "After a failed Firebase login the gateway waits longer before the next try (10 s, 20 s, 60 s, then 3 min), so a cloud outage no longer holds the main loop and drops Bluetooth data."
+    "Estimated time remaining counts only the usable charge, down to the controller's low-cut level",
+    "Learns the floor charge level where the battery reaches the Discharge Cut-Off Voltage under load",
+    "Discharge current averaged over about 7 minutes for a steadier estimate"
   ],
   "builds": {
     "ESP32-S3-8MB": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.46-esp32-s3-8mb-app-b10029d9cae6.bin",
-      "size": 1437600,
-      "sha256": "b10029d9cae6a91419d6b84e04d86a56947d36612d3e8a6a42b00d0f01d814d1"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.47-esp32-s3-8mb-app-b490ceca39ba.bin",
+      "size": 1440832,
+      "sha256": "b490ceca39ba939659fc58e8ce3d66954d4b07759a9dd75f7ef006613d16c703"
     },
     "ESP32-S3-16MB": {
-      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.46-esp32-s3-16mb-app-4bb45b1d3db1.bin",
-      "size": 1437600,
-      "sha256": "4bb45b1d3db12471e890caa59c588c369d3c1f71df91d22d8821a329e70ac32d"
+      "url": "https://mehedycse.github.io/noxbrain_espupdate/firmware/1.1.47-esp32-s3-16mb-app-5ff7b09bc3ca.bin",
+      "size": 1440832,
+      "sha256": "5ff7b09bc3caa322427edf261fcd3f7bb19fe581c93357a518ab5bb66ce0700f"
     }
   }
 }
